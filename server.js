@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const axios = require('axios')
 
-mongoose.connect('', {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false});
+mongoose.connect('mongodb+srv://', {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false});
 
 const schema = new mongoose.Schema({
 	_id: 'String',
